@@ -1,0 +1,224 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* ----------------- header part style --------------- */
+
+/* navigation bar style */
+nav > ul > li > a{
+    text-decoration: none;
+    color: rgb(18, 19, 102);
+}
+nav > ul > li {
+    list-style: none;
+    padding: 0 8.8%;
+}
+nav > ul > li:hover{
+    border: 1px solid rgb(18, 19, 102);
+    box-shadow: 10px;
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: transform 100ms ease-in-out;
+}
+.color-transition:hover{
+    color: rgb(18, 19, 102);
+    transition: color 400ms ;
+}
+nav > ul > i:hover{
+    color:rgb(18, 19, 102);
+    transform: rotate(-360deg);
+    transition: transform 500ms ease-in-out;
+    font-size: x-large;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding-top: 2%;
+}
+nav > ul > h2, nav > ul > i{
+    display: flex;
+    color: rgb(75, 173, 253);
+    font-weight: bold;
+    margin: 0;
+}
+header{
+    background: linear-gradient(white,white);
+}
+/* ----banner style----- */
+.banner{
+    display: flex;
+    padding: 5% 10%;
+    column-gap: 5%;
+}
+.inbanner{
+    align-self: center;
+}
+.inbanner > h1{
+    color: rgb(18, 19, 102);
+}
+.googleplay{
+    display: flex;
+}
+.inplay{
+    border-radius: 10px;
+    column-gap: 10px;
+    align-items: center;
+    display: flex;
+    padding:0 3%;
+    margin: 0 3%;
+    background-color: rgb(75, 173, 253);
+    text-decoration: none;
+}
+.inplay:hover{
+    background-color: rgb(0, 121, 235);
+    transform: scale(1.2);
+    transition: transform 300ms ease-in-out;
+}
+.inplay > h4{
+    color: white;
+}
+.icon-size{
+    font-size: x-large;
+    color: white;
+}
+.img:hover{
+    transform: scale(1.07);
+    transition: transform 400ms ease-in-out;
+}
+
+/* --------------main part style----------- */
+
+/* ------part-01------ */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 525px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow:5px 20px 50px rgba(74, 153, 211, 0.2);
+    padding: 40px;
+    margin: 50px;
+}
+.button1{
+    background-color: white;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: medium;
+    color: #2899e9;
+}
+.column2{
+    display: grid;
+}
+.column1 > div > h2{
+    color: rgb(18, 19, 102);
+}
+/* --------part-02------- */
+.containing{
+    padding:5% 10%;
+    background-color: #e5f2fc;
+}
+.size-of-icon{
+    font-size: xx-large;
+    color: rgb(18, 19, 102);
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+    text-align: center;
+}
+/* -------part-03------- */
+.contan{
+    padding: 5% 15% 5% 0;
+}
+.size-of-icon2{
+    font-size: 50px;
+    color: gray;
+}
+.part3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+}
+.button2 , .contan > div > h3{
+    text-align: center;
+}
+.icon1{
+    font-size: xx-large;
+}
+.icon2{
+    font-size: xx-large;
+}
+/* --------part-04------- */
+.contana{
+    padding: 10%;
+}
+span{
+    font-size: 20px;
+}
+.flexing{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: white;
+    background-color: black;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.playapp{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.heading-clr{
+    color: rgb(18, 19, 102);
+}
+/* -------------footer part-------------- */
+.foot{
+    padding:2% 10% 0.1% 10%;
+    background-color: #4A99D3;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    column-gap: 120px;
+}
+.middle{
+    display: flex;
+    column-gap: 150px;
+    color: white;
+}
+#mailbox{
+    height: 30px;
+    width: 200px;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 5px;
+}
+.button3{
+    border: 0;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0095ff;
+    padding: 5%;
+    border-radius: 5px;
+}
+.font-clr{
+    color: white;
+}
+.ending{
+    display: flex;
+    column-gap: 600px;
+    align-items: center;
+}
+.awesome{
+    display: flex;
+    column-gap: 25px;
+}
